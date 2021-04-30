@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainmenu.FXMLMainMenuController">
+    <stylesheets>
+        <URL value="@fxmlmainmenu.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Wallpaper02.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="165.0" layoutY="494.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="125.0" text="Play">
+         <font>
+            <Font name="Script MT Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="520.0" layoutY="494.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="126.0" text="Tutorial">
+         <font>
+            <Font name="Script MT Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
